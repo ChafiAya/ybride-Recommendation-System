@@ -24,6 +24,8 @@ Dans cette étape, vous allez charger deux fichiers du dataset MovieLens 100k :
 - Chargez les fichiers et créez un DataFrame `df_ratings` avec les colonnes `user_id`, `item_id`, `rating`, et `timestamp`.
 - Créez un autre DataFrame `movies_df` qui contient les informations sur les films (`movie_id`, `title`, et `features`).
 
+
+
 ### 2. Filtrage collaboratif (Collaborative Filtering)
 L’objectif est de recommander des films à un utilisateur basé sur les évaluations similaires des autres utilisateurs.
 
